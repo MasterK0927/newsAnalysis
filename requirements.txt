@@ -1,19 +1,26 @@
+# System requirements:
+# Ubuntu/Debian: sudo apt-get install portaudio19-dev python3-dev
+# Fedora: sudo dnf install portaudio-devel
+# macOS: brew install portaudio
+
 streamlit
-opencv-python-headless
+opencv-python
 numpy
 pytesseract
+torch
 transformers
 pinecone-client
-langchain
 python-dotenv
+langchain
+langchain-community
+openai
 pandas
 matplotlib
 wordcloud
 spacy
-datetime
-seaborn
-scikit-learn
-requests
 beautifulsoup4
-tf-keras
-torch
+requests
+librosa
+sounddevice
+scipy
+ctcdecode
