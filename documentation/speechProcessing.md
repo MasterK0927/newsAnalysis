@@ -13,6 +13,8 @@
 
 ## 2. wav2vec Language Support
 
+![alt text](image-1.png)
+
 | Language Group | Language | Native Script | Model Variant | Pretrained Model |
 |---------------|----------|---------------|---------------|------------------|
 | **European** | English | Latin | wav2vec-Base, Large | facebook/wav2vec2-base-960h |
