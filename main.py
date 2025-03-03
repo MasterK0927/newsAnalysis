@@ -1,6 +1,6 @@
 import streamlit as st
 from image_processing import extract_text
-from speech_processing import load_speech_model, record_audio, speech_to_text, wav2vec2_speech_to_text
+from speech_utils import load_speech_model, record_audio, speech_to_text, wav2vec2_speech_to_text
 from analysis import advanced_news_analysis
 from visualization import generate_word_cloud, format_google_news_url
 from rag import query_context, generate_rag_response
