@@ -23,4 +23,3 @@ requests
 librosa
 sounddevice
 scipy
-ctcdecode
