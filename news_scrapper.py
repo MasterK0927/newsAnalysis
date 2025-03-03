@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import random
 import time
+from typing import List, Dict
 
 def fetch_related_news(query: str) -> List[Dict[str, str]]:
     """Fetch related news articles from Google News"""
