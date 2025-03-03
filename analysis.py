@@ -2,7 +2,7 @@ import spacy
 import torch
 from transformers import AutoTokenizer, AutoModel, pipeline
 from collections import Counter
-from news_scraper import fetch_related_news, scrape_article_content
+from news_scrapper import fetch_related_news, scrape_article_content
 from database import store_embedding, generate_embedding
 from text_processing import preprocess_text, summarize_news, extract_entities, get_sentiment
 
